@@ -71,6 +71,7 @@ body
   padding: 2.5em 1.5em
   display: grid
   overflow: hidden
+  position: relative
 
   .navlist
     display: none
@@ -78,6 +79,7 @@ body
 .logo
   width: 140px
   cursor: pointer
+  z-index: 100
 
 nav
   display: grid
@@ -89,6 +91,7 @@ nav
   width: 30px
   height: 30px
   cursor: pointer
+  z-index: 100
 
 .navlist
   @include reset-list
@@ -96,6 +99,29 @@ nav
   a
     @include text($secondary-font, $case: none)
     text-decoration: none
+
+.mobile-menu
+  background-color: $black
+  position: absolute
+  padding: inherit
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  display: grid
+  align-items: center
+  transform: translateX(100%)
+  transition: transform 0.5s ease
+
+  ul
+    @include reset-list
+    display: grid
+    gap: 1.5em
+
+    a
+      @include text($primary-font)
+      text-decoration: none
+      font-size: 1.75em
 
 header
   h1

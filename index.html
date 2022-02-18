@@ -12,7 +12,7 @@
   <div class="hero">
     <nav>
       <img class="logo" src="/images/logo.svg" alt="Loopstudios logo">
-      <button aria-label="hamburger-menu" class="hamburger-menu"></button>
+      <button class="hamburger-menu" aria-label="hamburger-menu" aria-controls="menu" aria-selected="false"></button>
       <ul class="navlist">
         <li><a href="#">About</a></li>
         <li><a href="#">Careers</a></li>
@@ -24,6 +24,15 @@
     <header>
       <h1>Immersive experiences that deliver</h1>
     </header>
+    <div class="mobile-menu" id="menu">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
   </div>
 
   <section class="section-one">
@@ -87,5 +96,7 @@
     </div>
     <div class="copy-right-rules">© 2021 Loopstudios. All rights reserved.</div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
