@@ -1,7 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
 *,
 ::before,
 ::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 0;
+  min-height: 100vh;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: 1.5em 1fr 1.5em;
+  grid-template-rows: 80vh auto auto auto;
+  grid-template-areas: "hero hero hero" ".sec-one ." ".sec-two ." "footer footer footer";
+  gap: 6em 0;
+}
+
+.hero {
+  background: url("/images/mobile/image-hero.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  grid-area: hero;
+  padding: 2.5em 1.5em;
+  display: grid;
+  overflow: hidden;
+}
+
+.hero .navlist {
+  display: none;
+}
+
+.logo {
+  width: 140px;
+  cursor: pointer;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.hamburger-menu {
+  background: url("/images/icon-hamburger.svg") no-repeat center;
+  border: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.navlist {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navlist a {
+  font-family: "Alata", sans-serif;
+  color: white;
+  text-transform: none;
+  text-align: left;
+  text-decoration: none;
+}
+
+header h1 {
+  border: 3px solid white;
+  padding: 0.6em 1em 0.6em 0.6em;
+  font-size: 2.5em;
+  font-weight: 100;
+  max-width: 335px;
+}
+
+.section-one {
+  grid-area: sec-one;
+  display: grid;
+  gap: 3em;
+  justify-items: center;
+}
+
+.section-two {
+  display: grid;
+  justify-items: center;
+  grid-area: sec-two;
+  gap: 3em 0;
+}
+
+.title {
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.1em;
+  font-weight: 100;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: "Alata", sans-serif;
+  color: #8c8c8c;
+  text-transform: none;
+  text-align: center;
+  padding: 0 1em;
+  margin: 0.75em 0 0;
+  line-height: 1.75em;
+}
+
+.creations-container {
+  justify-self: stretch;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5em;
+}
+
+.creation-item {
+  position: relative;
+}
+
+.creation-item h3 {
+  font-size: 1.75em;
+  font-weight: 100;
+  line-height: 1em;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.8em;
+}
+
+.creation-item:nth-child(1) {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("/images/mobile/image-deep-earth.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 150px;
+}
+
+.creation-item:nth-child(2) {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("/images/mobile/image-night-arcade.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 150px;
+}
+
+.creation-item:nth-child(3) {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("/images/mobile/image-soccer-team.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 150px;
+}
+
+.creation-item:nth-child(4) {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("/images/mobile/image-grid.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 150px;
+}
+
+.creation-item:nth-child(5) {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("/images/mobile/image-from-above.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 150px;
+}
+
+.creation-item:nth-child(6) {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("/images/mobile/image-pocket-borealis.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 150px;
+}
+
+.creation-item:nth-child(7) {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("/images/mobile/image-curiosity.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 150px;
+}
+
+.creation-item:nth-child(8) {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("/images/mobile/image-fisheye.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 150px;
+}
+
+.creations-btn {
+  border: 2px solid dimgray;
+  background: white;
+  font-family: "Alata", sans-serif;
+  color: black;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 0.75em 3em;
+  letter-spacing: 0.4em;
+  cursor: pointer;
+}
+
+footer {
+  grid-area: footer;
+  background-color: black;
+  display: grid;
+  justify-items: center;
+  gap: 2.75em;
+  padding: 5em 2em;
+}
+
+footer .navlist {
+  display: grid;
+  justify-items: center;
+  gap: 1.8em;
+}
+
+.social-medias {
+  display: grid;
+  align-items: center;
+  grid-auto-flow: column;
+  gap: 1em;
+}
+
+.copy-right-rules {
+  font-family: "Alata", sans-serif;
+  color: #8c8c8c;
+  text-transform: none;
+  text-align: left;
+  margin-top: -1.5em;
 }
 /*# sourceMappingURL=style.css.map */
