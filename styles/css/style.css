@@ -30,7 +30,7 @@ body {
 }
 
 .hero {
-  background: url("/images/mobile/image-hero.jpg") no-repeat;
+  background: url("../../images/mobile/image-hero.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   grid-area: hero;
@@ -57,7 +57,7 @@ nav {
 }
 
 .hamburger-menu {
-  background: url("/images/icon-hamburger.svg") no-repeat center;
+  background: url("../../images/icon-hamburger.svg") no-repeat center;
   border: none;
   width: 30px;
   height: 30px;
@@ -225,56 +225,56 @@ header h1 {
 }
 
 .creation-item:nth-child(1) {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("/images/mobile/image-deep-earth.jpg") no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("../../images/mobile/image-deep-earth.jpg") no-repeat;
   background-size: cover;
   background-position-x: center;
   height: 150px;
 }
 
 .creation-item:nth-child(2) {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("/images/mobile/image-night-arcade.jpg") no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("../../images/mobile/image-night-arcade.jpg") no-repeat;
   background-size: cover;
   background-position-x: center;
   height: 150px;
 }
 
 .creation-item:nth-child(3) {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("/images/mobile/image-soccer-team.jpg") no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("../../images/mobile/image-soccer-team.jpg") no-repeat;
   background-size: cover;
   background-position-x: center;
   height: 150px;
 }
 
 .creation-item:nth-child(4) {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("/images/mobile/image-grid.jpg") no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("../../images/mobile/image-grid.jpg") no-repeat;
   background-size: cover;
   background-position-x: center;
   height: 150px;
 }
 
 .creation-item:nth-child(5) {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("/images/mobile/image-from-above.jpg") no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("../../images/mobile/image-from-above.jpg") no-repeat;
   background-size: cover;
   background-position-x: center;
   height: 150px;
 }
 
 .creation-item:nth-child(6) {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("/images/mobile/image-pocket-borealis.jpg") no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("../../images/mobile/image-pocket-borealis.jpg") no-repeat;
   background-size: cover;
   background-position-x: center;
   height: 150px;
 }
 
 .creation-item:nth-child(7) {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("/images/mobile/image-curiosity.jpg") no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("../../images/mobile/image-curiosity.jpg") no-repeat;
   background-size: cover;
   background-position-x: center;
   height: 150px;
 }
 
 .creation-item:nth-child(8) {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("/images/mobile/image-fisheye.jpg") no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%, rgba(255, 255, 255, 0) 60%), url("../../images/mobile/image-fisheye.jpg") no-repeat;
   background-size: cover;
   background-position-x: center;
   height: 150px;
@@ -360,7 +360,7 @@ footer .navlist {
     grid-template-columns: 10em 1fr 10em;
   }
   .hero {
-    background: url("/images/desktop/image-hero.jpg") no-repeat;
+    background: url("../../images/desktop/image-hero.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     padding: 5em 10em;
@@ -435,49 +435,49 @@ footer .navlist {
     gap: 1.5em;
   }
   .creation-item:nth-child(1) {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 10%, rgba(255, 255, 255, 0) 60%), url("/images/desktop/image-deep-earth.jpg") no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 10%, rgba(255, 255, 255, 0) 60%), url("../../images/desktop/image-deep-earth.jpg") no-repeat;
     background-size: cover;
     background-position-x: center;
     height: 500px;
   }
   .creation-item:nth-child(2) {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 10%, rgba(255, 255, 255, 0) 60%), url("/images/desktop/image-night-arcade.jpg") no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 10%, rgba(255, 255, 255, 0) 60%), url("../../images/desktop/image-night-arcade.jpg") no-repeat;
     background-size: cover;
     background-position-x: center;
     height: 500px;
   }
   .creation-item:nth-child(3) {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 10%, rgba(255, 255, 255, 0) 60%), url("/images/desktop/image-soccer-team.jpg") no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 10%, rgba(255, 255, 255, 0) 60%), url("../../images/desktop/image-soccer-team.jpg") no-repeat;
     background-size: cover;
     background-position-x: center;
     height: 500px;
   }
   .creation-item:nth-child(4) {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 10%, rgba(255, 255, 255, 0) 60%), url("/images/desktop/image-grid.jpg") no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 10%, rgba(255, 255, 255, 0) 60%), url("../../images/desktop/image-grid.jpg") no-repeat;
     background-size: cover;
     background-position-x: center;
     height: 500px;
   }
   .creation-item:nth-child(5) {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 10%, rgba(255, 255, 255, 0) 60%), url("/images/desktop/image-from-above.jpg") no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 10%, rgba(255, 255, 255, 0) 60%), url("../../images/desktop/image-from-above.jpg") no-repeat;
     background-size: cover;
     background-position-x: center;
     height: 500px;
   }
   .creation-item:nth-child(6) {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 10%, rgba(255, 255, 255, 0) 60%), url("/images/desktop/image-pocket-borealis.jpg") no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 10%, rgba(255, 255, 255, 0) 60%), url("../../images/desktop/image-pocket-borealis.jpg") no-repeat;
     background-size: cover;
     background-position-x: center;
     height: 500px;
   }
   .creation-item:nth-child(7) {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 10%, rgba(255, 255, 255, 0) 60%), url("/images/desktop/image-curiosity.jpg") no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 10%, rgba(255, 255, 255, 0) 60%), url("../../images/desktop/image-curiosity.jpg") no-repeat;
     background-size: cover;
     background-position-x: center;
     height: 500px;
   }
   .creation-item:nth-child(8) {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 10%, rgba(255, 255, 255, 0) 60%), url("/images/desktop/image-fisheye.jpg") no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 10%, rgba(255, 255, 255, 0) 60%), url("../../images/desktop/image-fisheye.jpg") no-repeat;
     background-size: cover;
     background-position-x: center;
     height: 500px;
