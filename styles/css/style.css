@@ -30,7 +30,7 @@ body {
 }
 
 .hero {
-  background: url("/images/mobile/image-hero.jpg") no-repeat;
+  background: url("../../images/mobile/image-hero.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   grid-area: hero;
